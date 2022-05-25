@@ -11,6 +11,10 @@ public class FindingFirstNonRepeatedCharacter {
 
     private static final String EXAMPLE_TEXT = "example_text_1234";
 
+    public static void main(String[] args) {
+        printFirstNonRepeatingCharacter();
+    }
+
     public static void printFirstNonRepeatingCharacter(){
         LOGGER.log(Level.INFO, ()-> String.valueOf(firstNonRepeatedCharacter(EXAMPLE_TEXT)));
     }
