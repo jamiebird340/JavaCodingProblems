@@ -1,19 +1,20 @@
 package StringsMathNumbers;
 
+import helpers.StringsAndNumbersHelper;
+
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.logging.Level;
-import java.util.logging.Logger;
 
-public class FindingFirstNonRepeatedCharacter {
-
-    static final Logger LOGGER = Logger.getLogger("");
-
-    private static final String EXAMPLE_TEXT = "example_text_1234";
+public class FindingFirstNonRepeatedCharacter extends StringsAndNumbersHelper {
 
     public static void main(String[] args) {
         printFirstNonRepeatingCharacter();
     }
+
+    //This method uses a LinkedHashMap rather than a hash map
+    //The reason for this is HashMap will return the shortest string of characters but LinkedHashMap will return -
+    //the first key with a value = 1
 
     public static void printFirstNonRepeatingCharacter(){
         LOGGER.log(Level.INFO, ()-> String.valueOf(firstNonRepeatedCharacter(EXAMPLE_TEXT)));
@@ -36,4 +37,6 @@ public class FindingFirstNonRepeatedCharacter {
 
         return Character.MIN_VALUE;
     }
+
+
 }
