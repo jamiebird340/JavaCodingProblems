@@ -9,4 +9,5 @@ public class StringsAndNumbersHelper {
     public static final String EXAMPLE_TEXT = "example_text_1234";
     public static final String EXAMPLE_SENTENCE = "My Bonnie Lies Over The Ocean";
     public static final String WHITE_SPACE = " ";
+    public static final Integer EXAMPLE_DIGITS = 1234567890;
 }
