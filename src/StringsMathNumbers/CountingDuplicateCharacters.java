@@ -1,15 +1,12 @@
 package StringsMathNumbers;
 
+import helpers.StringsAndNumbersHelper;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.Level;
-import java.util.logging.Logger;
 
-public class CountingDuplicateCharacters {
-
-    static final Logger LOGGER = Logger.getLogger("");
-
-    private static final String EXAMPLE_TEXT = "example_text_1234";
+public class CountingDuplicateCharacters extends StringsAndNumbersHelper {
 
     public static void main(String[] args) {
         countCharactersUsingMap();
