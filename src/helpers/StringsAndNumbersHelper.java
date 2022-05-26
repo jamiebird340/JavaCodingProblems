@@ -17,4 +17,5 @@ public class StringsAndNumbersHelper extends Helper{
     public static final String TO_FLOAT = "45.876";
     public static final String TO_DOUBLE = "13.8765D";
     public static final String ABC = "abc";
+    public static final String PALINDROME = "madam";
 }
